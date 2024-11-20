@@ -1,0 +1,72 @@
+html {
+  background-color: #0B192C;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#header {
+  background-color: #1E3E62;
+  width: 100%;
+  height: 50px;
+  text-transform: uppercase;
+  font-family: "Cabin", sans-serif;
+  margin: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.link {
+  padding: 40px;
+}
+
+#title {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  text-shadow: 3px 3px #64310f;
+  color: #FF6500;
+  text-align: left;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+.tablink {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.tablink:hover {
+  color: #FF6500; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+#logo {
+  padding: 15px;
+  text-align: left;
+  position: absolute;
+  left: 10px;
+}
+
+#desc {
+  background-color: #122b4d;
+  position: absolute;
+  width: 300px;
+  top: 100px;
+  left: 400px;
+  padding: 20px;
+  font-family: "Cabin", sans-serif;
+  color: #FF6500;
+  text-align: left;
+  border-radius:px;
+  margin: 0;
+  padding: 10px;
+}
+
