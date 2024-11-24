@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=DotGothic16&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=DotGothic16&family=Jersey+25&family=VT323&display=swap');
 
 html {
   background-color: #0B192C;
   margin: 0;
   padding: 0;
-  font-family: "Cabin", sans-serif;
+  font-family: "Jersey 25", monospace;
+  font-weight: 400;
+  font-style: normal;
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -15,6 +19,10 @@ html, body {
   margin: 0;
   display: flex;
   flex-direction: column;
+}
+
+#skillspage {
+  height: 175%
 }
 
 body {
@@ -38,7 +46,8 @@ h2 {
   width: 100%;
   height: 7.5vh;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-family: "VT323", monospace;
+  font-size: 1.7rem;
   margin: 0;
   padding: 0;
   display: flex;
@@ -58,7 +67,7 @@ h2 {
 .tablink {
   color: black;
   text-decoration: none;
-  padding: 1rem;
+  padding: 1.7rem;
   transition: color 0.3s ease;
 }
 
@@ -77,6 +86,7 @@ h2 {
   border-radius: 0.625rem;
   color: black;
   font-weight: bold;
+  font-family: "Cabin", sans-serif;
   background-color: rgba(30, 62, 98, 0.8);
   font-size: 1rem;
 }
@@ -149,4 +159,217 @@ h2 {
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
   margin-top: auto;
 }
+#skillslist{
+  background-color: rgba(30, 62, 98, 0.6);
+  position: relative;
+}
 
+#skills #myskills{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #myskills ul {
+    flex-wrap: wrap;
+  }
+  #myskills li {
+    margin: 0rem;
+  }
+}
+
+#myskills li {
+  margin: 0 0rem;
+}
+
+#myskills ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position:relative;
+  top: 5vh;
+}
+
+
+
+#html {
+  background-image: url(./assets/images/Grey\ HTML\ Logo.png);
+  background-size: 55px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  transition: all 0.3s ease;
+}
+
+#html:hover {
+  background-image: url(./assets/images/HTML\ Logo.png);
+  background-size: 55px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  transition: all 0.3s ease;
+}
+
+#css {
+  background-image: url(./assets/images/Grey\ CSS\ Logo.png);
+  background-size: 55px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  transition: all 0.3s ease;
+}
+
+#css:hover {
+  background-image: url(./assets/images/CSS\ Logo.png);
+  background-size: 55px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  transition: all 0.3s ease;
+}
+
+#python {
+  background-image: url(./assets/images/Grey\ Python\ Logo.png);
+  background-size: 75px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  transition: all 0.3s ease;
+}
+
+#python:hover {
+  background-image: url(./assets/images/Python\ Logo.png);
+  background-size: 75px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  transition: all 0.3s ease;
+}
+
+#java {
+  background-image: url(./assets/images/Grey\ Java\ Logo.png);
+  background-size: 55px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  transition: all 0.3s ease;
+}
+
+#java:hover {
+  background-image: url(./assets/images/Java\ Logo.png);
+  background-size: 55px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  transition: all 0.3s ease;
+}
+
+#bukkit {
+  background-image: url(./assets/images/Grey\ Bukkit\ Logo.png);
+  background-size: 75px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  transition: all 0.3s ease;
+}
+
+#bukkit:hover {
+  background-image: url(./assets/images/Bukkit\ Logo.png);
+  background-size: 75px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  transition: all 0.3s ease;
+}
+
+.subtitle {
+  text-shadow: 0.1875rem 0.1875rem #64310f;
+  color: #FF6500;
+  text-align: center;
+  font-optical-sizing: auto;
+  position: relative;
+  top: 10vh;
+  margin: 0 auto;
+  margin-top: 15vh;
+  width: 100%;
+  font-size: 4rem;
+  z-index: 1;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  display: inline-block;
+  align-items: center;
+  align-self: center;
+}
+
+#desc {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 5vh;
+  max-width: 50%;
+  line-height: 1.6;
+  font-size: 1.125rem;
+  text-align: center;
+  font-optical-sizing: auto;
+  color: white;
+  z-index: 1;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#desc h3 {
+  font-stretch: expanded;
+  font-weight: 500;
+  font-display: auto;
+  font-size: 1.5rem;
+  margin: 0;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skilldesc {
+  width: 30vh;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: rgba(30, 62, 98, 0.6);
+}
